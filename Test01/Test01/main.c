@@ -3,16 +3,20 @@
  *
  * Created: 10/2/2024 12:40:42 PM
  * Author : dbeog
- */ 
+ */
 
-#include <avr/io.h>
+// OM OMG NEW Jeans
+// LED Port : PG4
+#include <avr/io.h> // AVR ?? ??
 
+// ???? ???? ???
 
 int main(void)
 {
-    /* Replace with your application code */
+	DDRG |= 0x10; // xxx1 0000: 1 = ?? 0 = ??
     while (1) 
     {
+		PORTG |= 0x01;
     }
 }
 
